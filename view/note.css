@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    background-color: black;
+    color: white;
+  }
+  
+h1{
+    color: white;
+}
+
+  .title,
+  .author,
+  .notes,
+  button {
+    margin: 10px;
+    padding: 10px;
+  }
+
+.title, .author{
+font-size: 25px;
+height: 15px;
+width: 222px; 
+margin-left: 1px;
+  }
+
+  .note {
+    resize: none;
+    height: 500px;
+    width: 500px;
+    font-size: 25px;
+  
+  }
+  
+  button{
+    background-color:blue;
+    color:white;
+    width: 150px;
+    border: none;
+    font-size: 25px;    
+    margin: 10px auto; 
+    display: block;
+  }
+  .saveButton {
+    background-color: green;
+  }
+  button:hover{
+    cursor:pointer;
+  }
+  
